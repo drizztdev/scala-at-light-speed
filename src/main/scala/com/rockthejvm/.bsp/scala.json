@@ -1,0 +1,27 @@
+{
+  "name": "scala",
+  "argv": [
+    "/home/maru/.sdkman/candidates/scala/3.7.4/libexec/scala-cli",
+    "--cli-default-scala-version",
+    "3.7.4",
+    "--repository",
+    "file:///home/maru/.sdkman/candidates/scala/current/maven2",
+    "--prog-name",
+    "scala",
+    "--skip-cli-updates",
+    "bsp",
+    "--json-options",
+    "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/src/main/scala/com/rockthejvm/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/src/main/scala/com/rockthejvm/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/src/main/scala/com/rockthejvm/.scala-build/ide-envs.json",
+    "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/src/main/scala/com/rockthejvm/Playground.scala"
+  ],
+  "version": "1.9.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
