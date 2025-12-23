@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "scala-at-light-speed-build",
-        "directory": "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project",
-        "workspaceDir": "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project",
+        "directory": "/home/maru/Scala/scala-at-light-speed/project",
+        "workspaceDir": "/home/maru/Scala/scala-at-light-speed/project",
         "sources": [
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/src/main/scala",
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/src/main/scala-2.12",
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/src/main/scala-2",
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/src/main/java",
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/src/main/scala-sbt-1.0",
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/home/maru/Scala/scala-at-light-speed/project/src/main/scala",
+            "/home/maru/Scala/scala-at-light-speed/project/src/main/scala-2.12",
+            "/home/maru/Scala/scala-at-light-speed/project/src/main/scala-2",
+            "/home/maru/Scala/scala-at-light-speed/project/src/main/java",
+            "/home/maru/Scala/scala-at-light-speed/project/src/main/scala-sbt-1.0",
+            "/home/maru/Scala/scala-at-light-speed/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -104,11 +104,11 @@
             "/home/maru/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0.jar",
             "/home/maru/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/.bloop/scala-at-light-speed-build",
-        "classesDir": "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/.bloop/scala-at-light-speed-build/scala-2.12/sbt-1.0/classes",
+        "out": "/home/maru/Scala/scala-at-light-speed/project/.bloop/scala-at-light-speed-build",
+        "classesDir": "/home/maru/Scala/scala-at-light-speed/project/.bloop/scala-at-light-speed-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/src/main/resources",
-            "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/home/maru/Scala/scala-at-light-speed/project/src/main/resources",
+            "/home/maru/Scala/scala-at-light-speed/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -215,7 +215,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-17-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project"
+                    "-Duser.dir=/home/maru/Scala/scala-at-light-speed/project"
                 ]
             },
             "mainClass": [
@@ -224,11 +224,11 @@
             "runtimeConfig": {
                 "home": "/usr/lib/jvm/java-17-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project"
+                    "-Duser.dir=/home/maru/Scala/scala-at-light-speed/project"
                 ]
             },
             "classpath": [
-                "/mnt/c/Users/96894/Documents/Scala/scala-at-light-speed/project/.bloop/scala-at-light-speed-build/scala-2.12/sbt-1.0/classes",
+                "/home/maru/Scala/scala-at-light-speed/project/.bloop/scala-at-light-speed-build/scala-2.12/sbt-1.0/classes",
                 "/home/maru/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/2.0.17/sbt-bloop_2.12_1.0-2.0.17.jar",
                 "/home/maru/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.3.3/bloop-config_2.12-2.3.3.jar",
                 "/home/maru/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar",

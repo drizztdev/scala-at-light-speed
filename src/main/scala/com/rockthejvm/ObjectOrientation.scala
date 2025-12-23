@@ -9,7 +9,7 @@ object ObjectOrientation extends App {
     // define fields
     val age: Int = 0
     // define methods
-    def eat() = println("I'm eating")
+    infix def eat() = println("I'm eating")
   }
 
   val anAnimal = new Animal
@@ -19,7 +19,7 @@ object ObjectOrientation extends App {
   val aDog = new Dog("Lassie")
 
   // constructor arguments are NOT fields: need to put a val before the constructor argument
-  aDog.name
+  //aDog.name
 
   // subtype polymorphism
   val aDeclaredAnimal: Animal = new Dog("Hachi")
@@ -33,7 +33,7 @@ object ObjectOrientation extends App {
 
   // "interface" = ultimate abstract type
   trait Carnivore {
-    def eat(animal: Animal): Unit
+    infix def eat(animal: Animal): Unit
   }
 
   trait Philosopher {
@@ -42,7 +42,7 @@ object ObjectOrientation extends App {
 
   // single-class inheritance, multi-trait "mixing"
   class Crocodile extends Animal with Carnivore with Philosopher {
-    override def eat(animal: Animal): Unit = println("I am eating you, animal!")
+    override infix def eat(animal: Animal): Unit = println("I am eating you, animal!")
 
     override def ?!(thought: String): Unit = println(s"I was thinking: $thought")
   }
